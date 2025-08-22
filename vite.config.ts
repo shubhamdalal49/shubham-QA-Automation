@@ -91,7 +91,7 @@ import { visualizer } from 'rollup-plugin-visualizer'
 export default defineConfig(({ mode }) => {
   return {
     // Base path: local => '/', production => '/shubham-portfolio/'
-    base: mode === 'production' ? '/shubham-portfolio/' : '/',
+    base: mode === 'production' ? '/shubham-QA-Automation/' : '/',
     
     plugins: [
       react({
